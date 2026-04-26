@@ -1,0 +1,6 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="spidergraph">
+        <file>resources/icon.png</file>
+    </qresource>
+</RCC>

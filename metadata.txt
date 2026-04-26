@@ -1,0 +1,28 @@
+[general]
+name=SpiderGraph Connector
+qgisMinimumVersion=3.40
+description=Create one-to-many spatial connection lines (spider) between layers using flexible field matching, multi-ID parsing, and attribute enrichment. Designed for telecom and spatial network analysis workflows.
+version=1.0.0
+author=Achmad Amrulloh
+email=achmad.amrulloh@gmail.com
+about=SpiderGraph Connector is a QGIS plugin for creating spatial connection lines between source and target layers based on field matching. It supports one-to-many relationships, multi-ID parsing, partial matching, and attribute enrichment. Suitable for telecom network analysis, infrastructure mapping, and spatial relationship visualization.
+category=Vector
+tags=spidergraph,connector,line,network,matching,link,one-to-many,telecom
+tracker=https://github.com/erlrich/spidergraph-plugin/issues
+repository=https://github.com/erlrich/spidergraph-plugin
+homepage=https://github.com/erlrich/spidergraph-plugin
+license=GPL-3.0
+icon=resources/icon.png
+experimental=False
+deprecated=False
+
+[python]
+version=3
+
+changelog=
+    1.0.0 - Initial release
+        - One-to-many connector lines
+        - Support for Point, Line, Polygon geometries
+        - Exact and partial matching
+        - Multi-ID delimiter support
+        - Progress bar for large datasets
